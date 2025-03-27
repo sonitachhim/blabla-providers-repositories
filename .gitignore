@@ -44,3 +44,13 @@ app.*.map.json
 
 # Macros files
 macos/Flutter/GeneratedPluginRegistrant.swift
+
+pubspec.lock
+ android/
+ ios/
+ linux/
+ macos/
+ web/
+ windows/
+
+ .vscode/

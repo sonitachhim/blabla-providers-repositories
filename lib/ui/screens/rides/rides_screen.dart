@@ -48,14 +48,12 @@ class _RidesScreenState extends State<RidesScreen> {
       ),
     );
 
-    if (newPreference != null) {
-      // 1 - Update the current preference
-      RidePrefService.instance.setCurrentPreference(newPreference);
+    // 1 - Update the current preference
+    RidePrefService.instance.setCurrentPreference(newPreference);
 
-      // 2 -   Update the state   -- TODO MAKE IT WITH STATE MANAGEMENT
-      setState(() {});
+    // 2 -   Update the state   -- TODO MAKE IT WITH STATE MANAGEMENT
+    setState(() {});
     }
-  }
 
   void onFilterPressed() {}
 
